@@ -1,4 +1,5 @@
 {
+  "homepage":"http://Kishore022000.github.io/Quiz-Project",
   "name": "conditional-rendering",
   "version": "1.0.0",
   "description": "",
@@ -17,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy":"npm run bulid",
+    "deploy":"gh-pages -d bulid",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
