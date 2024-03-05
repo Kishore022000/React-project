@@ -1,6 +1,6 @@
 {
-  "homepage":"http://Kishore022000.github.io/Quiz-Project",
-  "name": "conditional-rendering",
+  "homepage": "http://Kishore022000.github.io/Quiz-Project",
+  "name": "quiz-app",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -10,16 +10,17 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "16.8.6",
-    "reac-dom": "16.8.6",
+    "react-dom": "16.8.6",
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy":"npm run bulid",
-    "deploy":"gh-pages -d bulid",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
